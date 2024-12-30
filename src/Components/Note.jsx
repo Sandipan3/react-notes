@@ -2,7 +2,7 @@ import React from 'react'
 
 function Note({id,text, editHandler, deleteHandler}) {
   return (
-    <div className='note'>
+    <div className='note my-4'>
         <div className="note-body text-white overflow-x-auto">
             <p className='break-words my-4'>{text}</p>
         </div>
